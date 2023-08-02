@@ -1,23 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Nav from './Nav';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <h1 className='pro'>Projects</h1>
+      <div className='wonder'>
+        <div id="swift">
+          <img src='login.png' height="300px" width="550" className='ssi' ></img> <br></br>
+          <button className='seyi'><a href="https://edxghbj.github.io/world/swift" id='busy'>Live Demo</a></button>
+          <button className='seyi'><a href="" id='busy'>Source code</a></button>
+        </div>
+        <div>
+          <img src='cac.png' height={300} width={550} className='ssi'></img><br></br>
+          <button className='seyi'><a href="https://edxghbj.github.io/world/cac" id='busy'>Live Demo</a></button>
+          <button className='seyi'><a href="" id='busy'>Source code</a></button>
+        </div>
+      </div>
+      <div className='wonder'>
+        <div id="swift">
+          <img src='sim.png' height="300px" width="550" className='ssi' ></img> <br></br>
+          <button className='seyi'><a href="https://edxghbj.github.io/world/simplified" id='busy'>Live Demo</a></button>
+          <button className='seyi'><a href="" id='busy'>Source code</a></button>
+        </div>
+        <div>
+          <img src='zoom.png' height={300} width={550} className='ssi'></img><br></br>
+          <button className='seyi'><a href="https://edxghbj.github.io/world/explore" id='busy'>Live Demo</a></button>
+          <button className='seyi'><a href="" id='busy'>Source code</a></button>
+        </div>
+      </div>
+
+      <div className='wonder'>
+        <div id="swift">
+          <img src='who.png' height="300px" width="550" className='ssi' ></img> <br></br>
+          <button className='seyi'><a href="https://edxghbj.github.io/world/whogohost" id='busy'>Live Demo</a></button>
+          <button className='seyi'><a href="" id='busy'>Source code</a></button>
+        </div>
+        <div>
+          <img src='down.png' height={300} width={550} className='ssi'></img><br></br>
+          <button className='seyi'><a href="https://edxghbj.github.io/world/download" id='busy'>Live Demo</a></button>
+          <button className='seyi'><a href="" id='busy'>Source code</a></button>
+        </div>
+      </div>
+
     </div>
   );
 }

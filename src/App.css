@@ -1,5 +1,134 @@
-.App {
+
+.App{
+  margin-top: 100px;
+}
+.wonder{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.Footer{
+  border-top: 10px solid rgb(218, 158, 8);
+  background-color: rgb(0, 3, 12);
+  margin-top: 25px;
+}
+.upper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.fa-whatsapp{
+  color: green
+}
+.fa-telegram{
+  color: rgb(0, 255, 225);
+}
+.fa-square-facebook{
+  color: white;
+}
+.fa-instagram{
+  color: white ;
+  background: linear-gradient(90deg, rgb(255, 183, 0) 10%,  rgb(255, 2, 255) 70%);
+}
+#snake{
+  background: linear-gradient(90deg, rgb(255, 183, 0) 10%,  rgb(255, 116, 2) 70%);
+  height: 70px;
+  width: 100px;
+  color: white;
+  padding-top: 10px;
+  font-size: 75px;
+}
+.wond{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px auto;
+  width: 80%;
+}
+#paint{
+  width: 398px;
+  height: 400px;
+}
+.marry{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.pro{
+  font-size: 70px;
+  font-family: 'Bungee Spice', cursive;
   text-align: center;
+}
+#pics{
+  height: 300px;
+}
+.zino{
+  text-align: center;
+  font-size: 70px;
+}
+.nav-link{
+  font-size: 25px;
+  color: white;
+  margin-right: 10px;
+}
+.mic{
+  margin: 0px auto;
+  text-align: center;
+}
+.nav-link:active{
+  color: rgb(255, 136, 0);
+}
+#cv{
+  background: white;
+  color: black;
+  width: 120px;
+  height: 50px;
+  border: 0;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.opem{
+  font-size: 14px;
+  color: white;
+  width: 54%;
+}
+.jam{
+  color: white;
+  font-size: 70px;
+  font-family: 'Bungee Spice', cursive;
+}
+.ja{
+  font-size: 30px;
+  font-family: 'Bungee Spice', cursive;
+}
+h3{
+  color: white;
+}
+#fy{
+  color: #ffa305;
+}
+h5{
+  color: white;
+}
+li{
+  color: #ffa305;
+}
+
+.tunde{
+  color: white;
+}
+.nav-link:hover{
+  color:  rgb(255, 162, 0) ;
+}
+.fa-brands{
+  margin-left: 20px;
+}
+.Nav{
+  color: #61dafb;
+  background-color: rgb(0, 3, 12);
+  text-align: center;
+  font-size: 30px;
+  min-height: 40vm;
+  margin-left: 0px;
 }
 
 .App-logo {
@@ -13,26 +142,35 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;
 }
 
+.seyi{
+  text-align: center;
+  border-radius: 10px;
+  height: 50px;
+  width: 120px;
+  background-color: #ffa305;
+  color: black;
+  font-size: 15px;
+  margin-left: 37%;
+  margin-top: 20px;
+  border: 0;
+}
+#busy{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
+    width: 100%;
   }
   to {
     transform: rotate(360deg);
+    width: 150%;
   }
 }
